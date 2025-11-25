@@ -40,10 +40,9 @@ That’s it — your automation is ready to use ⚡
 
 ---
 
-I duplicate the Script Code here, in a case someone doesn't want to download unknown files.
-Just copy it and paste into Apps Script's code space 
-| | |
-V V V
+### Script Code
+Just copy and paste it into Apps Script's code space 
+
 ---
 
 function onOpen() {
