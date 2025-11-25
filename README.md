@@ -45,6 +45,7 @@ Just copy and paste it into Apps Script's code space
 
 ---
 
+```javascript
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu("Text Tools")
@@ -54,15 +55,30 @@ function onOpen() {
     .addToUi();
 }
 
-function toUpperCaseRange() { transform_(t => t.toUpperCase()); }
-function toLowerCaseRange() { transform_(t => t.toLowerCase()); }
+function toUpperCaseRange() {
+  transform_(t => t.toUpperCase());
+}
+
+function toLowerCaseRange() {
+  transform_(t => t.toLowerCase());
+}
+
 function toProperCaseRange() {
-  transform_(t => t.toLowerCase().replace(/\b\w/g, c => c.toUpperCase()));
+  transform_(t =>
+    t.toLowerCase().replace(/\b\w/g, c => c.toUpperCase())
+  );
 }
 
 function transform_(fn) {
   const r = SpreadsheetApp.getActiveRange();
-  r.setValues(r.getValues().map(row => row.map(c => fn(String(c)))));
+  r.setValues(
+    r.getValues().map(row =>
+      row.map(c => fn(String(c)))
+    )
+  );
 }
+```
 
 ---
+
+Enjoy! Play! See ya!
