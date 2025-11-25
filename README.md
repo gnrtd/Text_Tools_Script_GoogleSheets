@@ -29,7 +29,7 @@ Select any range → click the command → your text is instantly formatted.
 3. Delete any existing code in the editor
 4. In the editor:
     -  Delete the default myFunction() (or any code there)
-    -  Copy all code from textTools.gs [link](https://github.com/gnrtd/Text_Tools_Script-for-Google-Sheets/blob/main/Text_Tools_Script.zip) (or from the post down here)
+    -  Copy all code from textTools.gs [link](https://github.com/gnrtd/Text_Tools_Script-for-Google-Sheets/blob/main/Text_Tools_Script.zip) (or from the post down here 👇)
     -  Paste it into the editor 
 5. Click **Save**
 6. Close the Apps Script tab
@@ -81,4 +81,4 @@ function transform_(fn) {
 
 ---
 
-Enjoy! Play! See ya!
+Enjoy! Play! See ya 😎👋
