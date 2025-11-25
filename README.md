@@ -40,8 +40,8 @@ That’s it — your automation is ready to use ⚡
 
 ---
 
-### Script Code
-Just copy and paste it into Apps Script's code space 
+### Script Code 
+Just copy and paste it into Apps Script's code space 👇👇
 
 ---
 
