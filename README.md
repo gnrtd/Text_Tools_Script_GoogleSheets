@@ -81,4 +81,8 @@ function transform_(fn) {
 
 ---
 
-Enjoy! Play! See ya 😎👋
+Enjoy
+
+---
+
+This dataset is fully synthetic. No real individuals or addresses are represented. Created solely for demonstration and training use.
